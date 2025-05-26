@@ -30,7 +30,7 @@ const Login = () => {
   };
 
   const handleGoogleLogin = () => {
-    window.location.href = 'http://localhost:5000/auth/google'; // adjust for production if needed
+    window.location.href = 'https://newlist-server-n141.onrender.com/auth/google'; // adjust for production if needed
   };
 
   return (
