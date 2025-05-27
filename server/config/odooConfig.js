@@ -1,7 +1,7 @@
 const Odoo = require('odoo-xmlrpc');
 require('dotenv').config();
 
-const useDocker = process.env.USE_DOCKER_ODOO === '0';
+const useDocker = process.env.USE_DOCKER_ODOO === '1';
 
 const getOdooClient = (label) => {
   const config = useDocker
